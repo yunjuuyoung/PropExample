@@ -15,5 +15,9 @@ namespace PropExample
             value = 10;
             Console.WriteLine("정적 생성자 호출");
         }
+
+        ~Sample() {
+            Console.WriteLine("Sample 객체 소멸자 호출");
+        }
     }
 }
