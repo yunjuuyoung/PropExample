@@ -45,6 +45,16 @@ namespace PropExample
             Console.WriteLine(item4.id);
 
             Console.WriteLine(Item.ApplicationName);
+
+            Box box = new Box(100, 100);
+            //Console.WriteLine(box.getHeiht());
+            //box.setHeight(200);
+            //Console.WriteLine(box.Area());
+
+            // property 사용
+            Console.WriteLine(box.Height);
+            box.Width = 200;
+            Console.WriteLine(box.Area);
         }
 
         // 오버로딩
